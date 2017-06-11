@@ -1,0 +1,17 @@
+<openerp>
+    <data>
+        <!-- Edit website_sale Product item template -->
+        <template id="hide_price_products_item" inherit_id="website_sale.products_item">
+            <xpath expr="//div[@itemprop='offers']" position="replace">
+                
+            </xpath>
+        </template>
+        
+        <!-- Edit website_sale Product price template -->
+        <template id="hide_price_product_price" inherit_id="website_sale.product_price">
+            <xpath expr="//div[@itemprop='offers']" position="replace">
+                
+            </xpath>
+        </template>
+    </data>
+</openerp>
